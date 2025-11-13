@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-04</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+
+    <style>
+        .main-div {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            text-align: center;
+        }
+
+        .main-div > div {
+            position: sticky;
+            width: 100vw;
+            height: 100px;
+            top: 0;
+        }
+
+        .main-div > div > h1 {
+            position: absolute;
+        }
+
+        .main-div > h1 {
+            position: absolute;
+            top: 250px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #div-01 {
+        }
+
+        #div-01 > div {
+            background-color: red;
+        }
+
+        #div-02 {
+            top: 100vh;
+        }
+
+        #div-02 > div {
+            background-color: green;
+        }
+
+        #div-03 {
+            top: 200vh;
+        }
+
+        #div-03 > div {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="div-01" class="main-div">
+    <h1>How</h1>
+    <div>
+        <h1>Card 01</h1>
+    </div>
+</div>
+
+<div id="div-02" class="main-div">
+    <h1>Are</h1>
+    <div>
+        <h1>Card 02</h1>
+    </div>
+</div>
+
+<div id="div-03" class="main-div">
+    <h1>You</h1>
+    <div>
+        <h1>Card 03</h1>
+    </div>
+</div>
+
+</body>
+</html>
